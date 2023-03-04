@@ -1,0 +1,26 @@
+.next-button {
+    height: 50px;
+    width: 160px;
+
+    margin-top: 1%;
+    
+    border: 2px solid rgba(255, 255, 255, 0.897);
+
+    color: white;
+    font-size: 17px;
+
+    font-family: 'Rubik', sans-serif;
+
+    background-color: transparent;
+}
+
+.next-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.918);
+    scale: 105%;
+    color: rgba(0, 0, 0, 0.836);
+}
+
+.next-button:active {
+    scale: 95%;
+}

@@ -71,3 +71,113 @@ li:hover {
   .hidden {
     display: none;
 }
+
+.closed {
+    position: absolute;
+    right: -60%;
+}
+
+@media (max-width: 650px) {
+    .logo-link {
+        margin-left: 20px;
+    }
+
+    .links {
+        margin-right: 40px;
+    }
+
+    .menu-button {
+        background-color: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.7);
+
+        cursor: pointer;
+
+        font-size: 20px;
+    }
+
+    .menu-button:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .close-button {
+        margin-left: 20px;
+        margin-top: 20px;
+        border: none; 
+
+        color: white;
+        font-size: 20px;
+
+        cursor: pointer;
+
+        background-color: transparent;
+    }
+
+    .close-button:hover {
+        color: rgba(255, 255, 255, 1);
+        scale: 115%;
+    }
+
+    .menu {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+
+        gap: 80px;
+
+        height: 100vh;
+        width: 60%;
+        right: 0;
+        top: 0;
+
+        transition: 0.4s;
+
+        background-color: rgba(0, 0, 0, 0.849);
+
+        z-index: 10;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .menu ul li a {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        transition: 0.2s;
+
+        color: white;
+    }
+
+    .menu ul li a:hover {
+        scale: 110%;
+    }
+
+    .closed {
+        width: 0px;
+        overflow: hidden;
+    }
+
+    .show {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .links {
+        max-width: 80px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
