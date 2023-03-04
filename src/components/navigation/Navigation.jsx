@@ -30,9 +30,9 @@ function Navigation() {
         <div className={`menu ${menuIsClosed ? 'closed' : ''}`}>
             <button className='close-button' onClick={toggleMenu}><Icon name='xmark' type='fas' /></button>
             <ul>
-                    <li><Link to='/'><Icon name='artstation' type='fab' /> Domů </Link></li>
+                    <li><Link to='/'><Icon name='home' type='fas' /> Domů </Link></li>
                     <li><Link to='/about'><Icon name='terminal' type='fas' />O nás </Link></li>
-                    <li><Link to='/handicaps'><Icon name='signal' type='fas' />Handicapy </Link></li>
+                    <li><Link to='/handicaps'><Icon name='wheelchair' type='fas' />Handicapy </Link></li>
                     <li><Link to='/contact'><Icon name='signal' type='fas' />Kontakt </Link></li>
             </ul>
         </div>

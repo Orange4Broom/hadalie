@@ -1,0 +1,72 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+
+    height: 100vh;
+    width: 100%;
+
+    color: white;
+
+    background: url('/images/background.svg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+.socials a {
+    font-size: 35px; 
+    color: rgba(255, 255, 255, 0.829);   
+}
+
+.socials a:hover {
+    scale: 115%;
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.headers {
+    text-align: center;
+}
+
+.top {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+    .top {
+        margin-top: 80px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

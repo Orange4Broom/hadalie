@@ -82,10 +82,6 @@ li:hover {
         margin-left: 20px;
     }
 
-    .links {
-        margin-right: 40px;
-    }
-
     .menu-button {
         background-color: transparent;
         border: none;
@@ -142,6 +138,7 @@ li:hover {
     .menu ul {
         display: flex;
         flex-direction: column;
+        align-items: start;
         gap: 30px;
     }
 
