@@ -18,12 +18,12 @@ function Illness() {
                 </div>
                 <div className='sbirky'>
                     <h1 className='ASL'>Sbírky</h1>
-                    <Link to='https://www.zsalsa.cz/'>
+                    <Link to='https://www.zsalsa.cz/' target="_blank" rel='noreferrer'>
                         <div>
                             <h1>Zsalsa</h1>
                         </div>
                     </Link>
-                    <Link to='https://www.donio.cz/sdmo'>
+                    <Link to='https://www.donio.cz/sdmo' target="_blank" rel='noreferrer'>
                         <div>
                             <h1>Donio</h1>
                         </div>

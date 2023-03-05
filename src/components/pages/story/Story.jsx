@@ -23,7 +23,7 @@ function Story() {
                 </div>
                 <div className='sbirky'>
                     <h1 className='ASL'>Sbírky</h1>
-                    <Link to='https://www.donio.cz/sdmo'>
+                    <Link to='https://www.donio.cz' target="_blank" rel='noreferrer'>
                         <div>
                             <h1>Donio</h1>
                         </div>
